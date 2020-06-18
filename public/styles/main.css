@@ -2,38 +2,39 @@
 * {
 	margin: 0;
 	padding: 0;
-	cursor: url('../images/millenium.cur'), auto;
 }
 
-/** Open Sans font. */
+/** Benguiat Bold font. */
 @font-face {
-    font-family: 'Open Sans';
-    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-family: 'Benguiat-Bold';
+    src: url('../fonts/Benguiat-Bold.ttf') format('truetype');
     font-display: swap;
 }
 
 /** Universal text rules. */
 p, a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Times New Roman, sans-serif;
     color: #f2f2f2;
 }
 
 /** Title text. */
 .title {
+    font-family: 'Benguiat-Bold', sans-serif;
     font-size: 8vmin;
     text-shadow: 0.4vmin 0.4vmin #0088ff;
 }
 
 /** Regular links. */
 .links {
-	font-size: 5vmin;
-    text-shadow: 0.3vmin 0.3vmin #0088ff;
+    padding: 5px;
+	font-size: 4vmin;
+    text-decoration: none;
+    text-shadow: 0.2vmin 0.2vmin #0088ff;
     transition: all 0.2s ease-in;
 }
 
-/** Hovered links. */
 .links:hover {
-    text-shadow: 0.5vmin 0.5vmin #0088ff;
+    text-shadow: 0.2vmin 0.2vmin #0088ff, 0 0 5vmin #005fb3, 0 0 5vmin #005fb3, 0 0 5vmin #005fb3, 0 0 5vmin #005fb3, 0 0 5vmin #005fb3, 0 0 5vmin #005fb3, 0 0 5vmin #005fb3;
 }
 
 /** General body space. */
